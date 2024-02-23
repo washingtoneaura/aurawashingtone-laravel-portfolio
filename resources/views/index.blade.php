@@ -56,7 +56,7 @@
               <a class="nav-link" href="{{ url('/services') }}">our services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">portfolio</a>
+              <a class="nav-link" href="{{ url('/portfolio') }}">portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">read blog</a>
@@ -281,8 +281,17 @@
                   <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
                       <div class="carousel-inner w-100" role="listbox">
                           <div class="carousel-item active">
-                              <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-4.jpg" class="img-fluid">
+                              <a href="{{ asset('images/portfolio4.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-4.jpg') }}" class="img-fluid">
+                                 <div class="overlay">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
+                                  <div class="text">Beautiful Sunset at Mountain</div>
+                                 </div>
+                              </a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
                                  <div class="overlay">
                                  <img src="images/plus-img.png" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
@@ -290,44 +299,35 @@
                               </a>
                           </div>
                           <div class="carousel-item">
-                              <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-3.jpg" class="img-fluid">
+                              <a href="{{ asset('images/portfolio4.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-4.jpg') }}" class="img-fluid">
                                  <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
                                  </div>
                               </a>
                           </div>
                           <div class="carousel-item">
-                              <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-4.jpg" class="img-fluid">
+                              <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
                                  <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
                                  </div>
                               </a>
                           </div>
                           <div class="carousel-item">
-                              <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-3.jpg" class="img-fluid">
+                              <a href="{{ asset('images/portfolio4.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-4.jpg') }}" class="img-fluid">
                                  <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
                                  </div>
                               </a>
                           </div>
                           <div class="carousel-item">
-                              <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-4.jpg" class="img-fluid">
-                                 <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
-                                  <div class="text">Beautiful Sunset at Mountain</div>
-                                 </div>
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="images/portfolio-3.jpg" class="img-fluid">
+                              <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
                                  <div class="overlay">
                                  <img src="images/plus-img.png" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
@@ -404,7 +404,7 @@
               <a href="{{ url('/services') }}">services</a>
             </li>
             <li>
-              <a href="portfolio.html">portfolio</a>
+              <a href="{{ url('/portfolio') }}">portfolio</a>
             </li>
             <li>
               <a href="blog.html">read blog</a>
