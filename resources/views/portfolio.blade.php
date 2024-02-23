@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-5 col1">
-                <h5>ww.jumpertheme.com</h5>
+                <h5>www.aurawashingtone.com</h5>
             </div>
             <div class="col-sm-6 col-7 col2">
                 <div class="row">
@@ -41,27 +41,27 @@
     <!-- Navigation -->
     <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">our services</a>
+              <a class="nav-link" href="{{ url('/services') }}">services</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">portfolio</a>
+              <a class="nav-link" href="{{ url('/portfolio') }}">portfolio</a>
               <span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">read blog</a>
+              <a class="nav-link" href="{{ url('/blog') }}">read blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact
+              <a class="nav-link" href="{{ url('/contact') }}">Contact
               </a>
             </li>
           </ul>
@@ -74,8 +74,8 @@
           <div class="container">
               <div class="row">
                  <div class="col-sm-12 heading">
-                    <h1 data-aos="fade-right" data-aos-delay="300">Hello and welcome to jumper</h1>
-                    <h2 data-aos="fade-left" data-aos-delay="300">kickass wordpress agency theme</h2>
+                    <h1 data-aos="fade-right" data-aos-delay="300">Full-Stack Software Developer</h1>
+                    <h2 data-aos="fade-left" data-aos-delay="300">From frontend finesse to backend brilliance, I've got you covered</h2>
                  </div>  
               </div>
           </div>
@@ -90,21 +90,21 @@
                   <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                       <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
                         <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                         </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                       <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
                         <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                         </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                       <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
                         <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                         </div>
                   </a>
@@ -113,21 +113,21 @@
                   <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
@@ -136,21 +136,21 @@
                   <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
                   <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 box">
                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
                      <div class="overlay">
-                         <img src="images/plus-img.png" alt="plus-icon">
+                         <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div>
                   </a>
@@ -176,7 +176,7 @@
         <div class="col-lg-5 col-md-12 col-12 content">
 
           <!-- Content -->
-          <a href="index.html"><img src="images/logo.png" alt="footer-logo"></a>
+          <a href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="footer-logo"></a>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.</p>
 
         </div>
@@ -220,19 +220,19 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="index.html">go to home</a>
+              <a href="{{ url('/') }}">go to home</a>
             </li>
             <li>
-              <a href="services.html">services</a>
+              <a href="{{ url('/services') }}">services</a>
             </li>
             <li>
-              <a href="portfolio.html">portfolio</a>
+              <a href="{{ url('/portfolio') }}">portfolio</a>
             </li>
             <li>
-              <a href="blog.html">read blog</a>
+              <a href="{{ url('/blog') }}">read blog</a>
             </li>
             <li>
-              <a href="contact.html">contact us</a>
+              <a href="{{ url('/contact') }}">contact us</a>
             </li>
             <li>
               <a href="#!">product support</a>

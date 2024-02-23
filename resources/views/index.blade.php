@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-5 col1">
-                <h5>ww.jumpertheme.com</h5>
+                <h5>www.aurawashingtone.com</h5>
             </div>
             <div class="col-sm-6 col-7 col2">
                 <div class="row">
@@ -53,16 +53,16 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('/services') }}">our services</a>
+              <a class="nav-link" href="{{ url('/services') }}">services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/portfolio') }}">portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">read blog</a>
+              <a class="nav-link" href="{{ url('/blog') }}">read blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
             </li>
           </ul>
         </div>
@@ -79,36 +79,36 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
          <div class="carousel-item active">
-           <img src="images/banner-3.jpg" alt="...">
+           <img src="{{ asset('images/banner-3.jpg') }}" alt="...">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>jumper the stunning theme</h3>
-              <h1>Hello and welcome to jumper</h1>
-              <h2>kickass wordpress agency theme</h2>
+            <h3>First Solve The Problem. Then, Write The Code.</h3>
+              <h1>Full-Stack Software Developer</h1>
+              <h2>From frontend finesse to backend brilliance, I've got you covered</h2>
               <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
               <a class="btn btn-primary" href="#" role="button">get started</a>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-           <img src="images/banner-2.jpg" alt="...">
+           <img src="{{ asset('images/banner-2.jpg') }}" alt="...">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>jumper the stunning theme</h3>
-              <h1>Hello and welcome to jumper</h1>
-              <h2>kickass wordpress agency theme</h2>
+            <h3>From frontend finesse to backend brilliance, I've got you covered</h3>
+              <h1>Full-Stack Software Developer</h1>
+              <h2>From frontend finesse to backend brilliance, I've got you covered</h2>
               <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
               <a class="btn btn-primary" href="#" role="button">get started</a>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-           <img src="images/banner-1.jpg" alt="...">
+           <img src="{{ asset('images/banner-1.jpg') }}" alt="...">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>jumper the stunning theme</h3>
-              <h1>Hello and welcome to jumper</h1>
-              <h2>kickass wordpress agency theme</h2>
+            <h3>From frontend finesse to backend brilliance, I've got you covered</h3>
+              <h1>Full-Stack Software Developer</h1>
+              <h2>From frontend finesse to backend brilliance, I've got you covered</h2>
               <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
               <a class="btn btn-primary" href="#" role="button">get started</a>
             </div>
@@ -189,17 +189,17 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="{{ asset('images/banner-1.jpg') }}"  alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="blog_single.html">design</a></h4>
+                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="blog_single.html">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
  					   </div>
                     </div>
                 </div>
@@ -208,17 +208,17 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="{{ asset('images/blog-2.jpg') }}"  alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="blog_single.html">fashion</a></h4>
+                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="blog_single.html">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
  					   </div>
                     </div>
                 </div>
@@ -229,17 +229,17 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="{{ asset('images/blog-1.jpg') }}" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="blog_single.html">design</a></h4>
+                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="blog_single.html">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
  					   </div>
                     </div>
                 </div>
@@ -248,17 +248,17 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="{{ asset('images/blog-2.jpg') }}" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="blog_single.html">fashion</a></h4>
+                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="blog_single.html">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
  					   </div>
                     </div>
                 </div>
@@ -293,24 +293,6 @@
                               <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
                                  <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
                                  <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
-                                  <div class="text">Beautiful Sunset at Mountain</div>
-                                 </div>
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a href="{{ asset('images/portfolio4.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="{{ asset('images/portfolio-4.jpg') }}" class="img-fluid">
-                                 <div class="overlay">
-                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
-                                  <div class="text">Beautiful Sunset at Mountain</div>
-                                 </div>
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                                 <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
-                                 <div class="overlay">
                                  <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
                                  </div>
@@ -329,7 +311,25 @@
                               <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
                                  <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
                                  <div class="overlay">
-                                 <img src="images/plus-img.png" alt="plus-icon">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
+                                  <div class="text">Beautiful Sunset at Mountain</div>
+                                 </div>
+                              </a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="{{ asset('images/portfolio4.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-4.jpg') }}" class="img-fluid">
+                                 <div class="overlay">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
+                                  <div class="text">Beautiful Sunset at Mountain</div>
+                                 </div>
+                              </a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="{{ asset('images/portfolio3.jpg') }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
+                                 <img src="{{ asset('images/portfolio-3.jpg') }}" class="img-fluid">
+                                 <div class="overlay">
+                                 <img src="{{ asset('images/plus-img.png') }}" alt="plus-icon">
                                   <div class="text">Beautiful Sunset at Mountain</div>
                                  </div>
                               </a>
@@ -407,10 +407,10 @@
               <a href="{{ url('/portfolio') }}">portfolio</a>
             </li>
             <li>
-              <a href="blog.html">read blog</a>
+              <a href="{{ url('/blog') }}">read blog</a>
             </li>
             <li>
-              <a href="contact.html">contact us</a>
+              <a href="{{ url('/contact') }}">contact us</a>
             </li>
             <li>
               <a href="#!">product support</a>
