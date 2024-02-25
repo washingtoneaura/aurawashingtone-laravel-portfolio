@@ -25,8 +25,8 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/blog_single', function () {
-    return view('blog_single');
+Route::get('/blog-details', function () {
+    return view('blog-details');
 });
 
 Route::get('/contact', function () {
@@ -37,6 +37,14 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
+Route::get('/portfolio-details', function () {
+    return view('portfolio-details');
+});
+
 Route::get('/services', function () {
     return view('services');
+});
+
+Route::get('/team', function () {
+    return view('team');
 });

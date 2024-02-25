@@ -44,7 +44,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="d-flex align-items-center">Nova</h1>
@@ -55,12 +55,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html" class="active">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="{{ url('/about') }}">About</a></li>
+          <li><a href="{{ url('/services') }}">Services</a></li>
+          <li><a href="{{ url('/portfolio') }}" class="active">Portfolio</a></li>
+          <li><a href="{{ url('/team') }}">Team</a></li>
+          <li><a href="{{ url('/blog') }}">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -78,7 +78,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -93,7 +93,7 @@
 
         <h2>Portfolio</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li>Portfolio</li>
         </ol>
 
@@ -252,7 +252,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ url('/') }}" class="logo d-flex align-items-center">
               <span>Nova</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>

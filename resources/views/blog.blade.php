@@ -44,7 +44,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="d-flex align-items-center">Nova</h1>
@@ -55,12 +55,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="{{ url('/about') }}">About</a></li>
+          <li><a href="{{ url('/services') }}">Services</a></li>
+          <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+          <li><a href="{{ url('/team') }}">Team</a></li>
+          <li><a href="{{ url('/blog') }}" class="active">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -78,7 +78,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -93,7 +93,7 @@
 
         <h2>Blog</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li>Blog</li>
         </ol>
 
@@ -118,14 +118,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                    <a href="{{ url('/blog-details') }}">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -136,7 +136,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -150,14 +150,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                    <a href="{{ url('/blog-details') }}">Nisi magni odit consequatur autem nulla dolorem</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -168,7 +168,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -182,14 +182,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                    <a href="{{ url('/blog-details') }}">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -200,7 +200,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -214,14 +214,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                    <a href="{{ url('/blog-details') }}">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -232,7 +232,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -246,14 +246,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                    <a href="{{ url('/blog-details') }}">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -264,7 +264,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -278,14 +278,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                    <a href="{{ url('/blog-details') }}">Distinctio provident quibusdam numquam aperiam aut</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/blog-details') }}">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/blog-details') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ url('/blog-details') }}">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -296,7 +296,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ url('/blog-details') }}">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -422,7 +422,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ url('/') }}" class="logo d-flex align-items-center">
               <span>Nova</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
