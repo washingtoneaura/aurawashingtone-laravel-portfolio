@@ -1,405 +1,508 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Jumper</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main.css">
-    
-  </head>
-  <body>
-   <div class="top-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-5 col1">
-                <h5>www.aurawashingtone.com</h5>
-            </div>
-            <div class="col-sm-6 col-7 col2">
-                <div class="row">
-                   <div class="col-sm-12">
-                      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                   </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   </div>
-    <!-- Navigation -->
-    <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('/') }}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('/services') }}">services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('/portfolio') }}">portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ url('/blog') }}">read blog
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <header class="banner">
-         <div class="gradient"></div>
-          <div class="container">
-              <div class="row">
-                 <div class="col-sm-12 heading">
-                    <h1 data-aos="fade-right" data-aos-delay="300">Full-Stack Software Developer</h1>
-                    <h2 data-aos="fade-left" data-aos-delay="300">From frontend finesse to backend brilliance, I've got you covered</h2>
-                 </div>  
-              </div>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Nova Bootstrap Template - Blog</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Nova
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="page-blog">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">Nova</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/blog-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>Blog</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Blog</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="row gy-5 posts-list">
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      In itaque assumenda aliquam voluptatem qui temporibus iusto nisi quia. Autem vitae quas aperiam nesciunt mollitia tempora odio omnis. Ipsa odit sit ut amet necessitatibus. Quo ullam ut corrupti autem consequuntur totam dolorem.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+              <div class="col-lg-6">
+                <article class="d-flex flex-column">
+
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <h2 class="title">
+                    <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                  </h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores. Illo laboriosam officiis quis. Labore officia quia sit voluptatem nisi est dignissimos totam. Et voluptate et consectetur voluptatem id dolor magni impedit. Omnis dolores sit.
+                    </p>
+                  </div>
+
+                  <div class="read-more mt-auto align-self-end">
+                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+
+                </article>
+              </div><!-- End post list item -->
+
+            </div><!-- End blog posts list -->
+
+            <div class="blog-pagination">
+              <ul class="justify-content-center">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
+            </div><!-- End blog pagination -->
+
           </div>
-    </header>
 
-<section class="blog-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 heading">
-                <h2>Read Our Blog</h2>
-            </div>
-        </div>
-    </div>
-    <hr/>
-    <div class="container">
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-1.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-2.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-1.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-2.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-1.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-2.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-1.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">design</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-one">
-                           <img src="{{ asset('images/blog-2.jpg') }}" alt="" class="img-thumbnail blog-1">
-                             <div class="text-block"> 
-                               <h4><a href="{{ url('/blog_single') }}">fashion</a></h4>
-                             </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="{{ url('/blog_single') }}">Girl working seriously on laptop in office hours</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
- 						   <a class="btn btn-primary" href="{{ url('/blog_single') }}" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pages">
-            <a class="btn btn-primary" href="#" role="button" data-aos="fade-right" data-aos-delay="300">Previous Page</a>
-            <a class="btn btn-primary" href="#" role="button" data-aos="fade-left" data-aos-delay="300">next Page</a>
-        </div>
-    </div>
-</section>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
 
-<!-- Footer -->
-<footer class="page-footer">
-  <div class="gradient"></div>
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+            <div class="sidebar ps-lg-4">
 
-      <!-- Grid row -->
-      <div class="row">
+              <div class="sidebar-item search-form">
+                <h3 class="sidebar-title">Search</h3>
+                <form action="" class="mt-3">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
 
-        <!-- Grid column -->
-        <div class="col-lg-5 col-md-12 col-12 content">
+              <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Categories</h3>
+                <ul class="mt-3">
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="#">Travel <span>(5)</span></a></li>
+                  <li><a href="#">Design <span>(22)</span></a></li>
+                  <li><a href="#">Creative <span>(8)</span></a></li>
+                  <li><a href="#">Educaion <span>(14)</span></a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
 
-          <!-- Content -->
-          <a href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="footer-logo"></a>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.</p>
+              <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Recent Posts</h3>
+
+                <div class="mt-3">
+
+                  <div class="post-item mt-3">
+                    <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
+                    <div>
+                      <h4><a href="blog-post.html">Nihil blanditiis at in nihil autem</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div><!-- End recent post item-->
+
+                  <div class="post-item">
+                    <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
+                    <div>
+                      <h4><a href="blog-post.html">Quidem autem et impedit</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div><!-- End recent post item-->
+
+                  <div class="post-item">
+                    <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
+                    <div>
+                      <h4><a href="blog-post.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div><!-- End recent post item-->
+
+                  <div class="post-item">
+                    <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
+                    <div>
+                      <h4><a href="blog-post.html">Laborum corporis quo dara net para</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div><!-- End recent post item-->
+
+                  <div class="post-item">
+                    <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
+                    <div>
+                      <h4><a href="blog-post.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div><!-- End recent post item-->
+
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+              <div class="sidebar-item tags">
+                <h3 class="sidebar-title">Tags</h3>
+                <ul class="mt-3">
+                  <li><a href="#">App</a></li>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Creative</a></li>
+                  <li><a href="#">Studio</a></li>
+                  <li><a href="#">Smart</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </div><!-- End sidebar tags-->
+
+            </div><!-- End Blog Sidebar -->
+
+          </div>
 
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-2 col-md-4 mx-auto">
-
-          <!-- Links -->
-          <h5 class="mt-3 mb-3">Site Navigation</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="{{ url('/') }}">go to home</a>
-            </li>
-            <li>
-              <a href="{{ url('/services') }}">services</a>
-            </li>
-            <li>
-              <a href="{{ url('/portfolio') }}">portfolio</a>
-            </li>
-            <li>
-              <a href="{{ url('/blog') }}">read blog</a>
-            </li>
-            <li>
-              <a href="{{ url('/contact') }}">contact us</a>
-            </li>
-            <li>
-              <a href="#!">product support</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-2 col-md-4 mx-auto">
-
-          <!-- Links -->
-          <h5 class="mt-3 mb-3">information</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">user login</a>
-            </li>
-            <li>
-              <a href="#!">creat new account</a>
-            </li>
-            <li>
-              <a href="#!">checkout</a>
-            </li>
-            <li>
-              <a href="#!">my cart</a>
-            </li>
-            <li>
-              <a href="#!">other information</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-2 col-md-4 mx-auto">
-
-
-          <!-- Links -->
-          <h5 class="mt-3 mb-3">policies & Info</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Terms Conditions</a>
-            </li>
-            <li>
-              <a href="#!">website polocy</a>
-            </li>
-            <li>
-              <a href="#!">Policy for Sellers  </a>
-            </li>
-            <li>
-              <a href="#!">Policy for Buyers</a>
-            </li>
-            <li>
-              <a href="#!">Shipping & Refund </a>
-            </li>
-            <li>
-              <a href="#!">Wholesale Policy</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
 
       </div>
-      <!-- Grid row -->
+    </section><!-- End Blog Section -->
 
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>Nova</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links d-flex  mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
     </div>
-    <!-- Footer Links -->
-    <br/>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center">
-       <p>© 2017, All Rights Reserved. <a href="https://www.template.net/editable/websites/html5">JumperTheme</a> , Designed by <a href="https://www.template.net/editable/websites/html5">Template.net</a></p>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Nova</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
     </div>
-    <!-- Copyright -->
+  </footer><!-- End Footer --><!-- End Footer -->
 
-</footer>
-<!-- Footer -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-   
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Custom JavaScript -->
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-<script>
-$('.carousel').carousel({
-  interval: 2000
-})
-    
-window.onscroll = function() {myFunction()};
+  <div id="preloader"></div>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-  </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
