@@ -126,7 +126,7 @@
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">An Exceptionally Unique Experience Tailored To You</h3>
+                    <h3 class="mb-3">An Exceptionally Unique Experience Tailored To You.</h3>
                     <h4 class="mb-3">Versatile professionalism with expertise in system architecture and programming languages, specializing in generating unique ideas, pursuing goals, and addressing challenges.</h4>
                     <p>I am an ideas generator, goal seeker, challenge-thirsty professional, and creator of unique software and systems projects. I deliver unconventional solutions tailored to your needs. With a deep understanding of system architecture and programming languages, I create solutions that optimize performance, improve efficiency, and enhance the user experience.</p>
                   </div>
