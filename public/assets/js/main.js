@@ -1,5 +1,5 @@
 /**
-* Template Name: Nova
+* Template Name: Washingtone
 * Updated: Jan 29 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
 * Author: BootstrapMade.com
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectHeader = document.querySelector('#header');
   if (selectHeader) {
     document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+      window.scrollY > 10 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
 

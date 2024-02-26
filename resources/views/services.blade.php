@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nova Bootstrap Template - Services</title>
+  <title>Washingtone Aura - Services</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -30,7 +30,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Nova
+  * Template Name: Washingtone
   * Updated: Jan 29 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
   * Author: BootstrapMade.com
@@ -46,8 +46,8 @@
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">Nova</h1>
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="d-flex align-items-center">Washingtone</h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -349,7 +349,7 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-              <span>Nova</span>
+              <span>Washingtone</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links d-flex  mt-3">
@@ -401,7 +401,7 @@
     <div class="footer-legal">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Nova</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Washingtone</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->

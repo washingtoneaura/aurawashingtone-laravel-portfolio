@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nova Bootstrap Template - Index</title>
+  <title>Washingtone Aura - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -30,7 +30,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Nova
+  * Template Name: Washingtone
   * Updated: Jan 29 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
   * Author: BootstrapMade.com
@@ -46,8 +46,8 @@
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">Nova</h1>
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="d-flex align-items-center">Washingtone</h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -90,15 +90,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-4">
-          <h2 data-aos="fade-up">Focus On What Matters</h2>
+          <h2 data-aos="fade-up">Full-Stack Software Developer</h2>
           <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
+            <p>From frontend finesse to backend brilliance, I've got you covered. </p>
           </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#about" class="btn-get-started">Get Started</a>
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
-
+          <hr style="border-top: 5px solid #ffffff; margin: 50px 0 10px 0; width:25%;">
+          <p style="color: #ffffff">First Solve The Problem. Then, Write The Code.</p>
         </div>
       </div>
     </div>
@@ -111,7 +112,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Why Choose Us</h2>
+          <h2>Why Choose Me</h2>
 
         </div>
 
@@ -125,33 +126,25 @@
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Let's grow your business together</h3>
-                    <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                    <h3 class="mb-3">An Exceptionally Unique Experience Tailored To You</h3>
+                    <h4 class="mb-3">Versatile professionalism with expertise in system architecture and programming languages, specializing in generating unique ideas, pursuing goals, and addressing challenges.</h4>
+                    <p>I am an ideas generator, goal seeker, challenge-thirsty professional, and creator of unique software and systems projects. I deliver unconventional solutions tailored to your needs. With a deep understanding of system architecture and programming languages, I create solutions that optimize performance, improve efficiency, and enhance the user experience.</p>
                   </div>
                 </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Unde perspiciatis ut repellat dolorem</h3>
-                    <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
-                    <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
+                    <h3 class="mb-3">An Exceptionally Unique Experience Tailored To You</h3>
+                    <h4 class="mb-3">Versatile professionalism with expertise in system architecture and programming languages, specializing in generating unique ideas, pursuing goals, and addressing challenges.</h4>
+                    <p>I am an ideas generator, goal seeker, challenge-thirsty professional, and creator of unique software and systems projects. I deliver unconventional solutions tailored to your needs. With a deep understanding of system architecture and programming languages, I create solutions that optimize performance, improve efficiency, and enhance the user experience.</p>
                   </div>
                 </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Aliquid non alias minus</h3>
-                    <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
-                    <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
-                    <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
-                    <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
+                    <h3 class="mb-3">An Exceptionally Unique Experience Tailored To You</h3>
+                    <h4 class="mb-3">Versatile professionalism with expertise in system architecture and programming languages, specializing in generating unique ideas, pursuing goals, and addressing challenges.</h4>
+                    <p>I am an ideas generator, goal seeker, challenge-thirsty professional, and creator of unique software and systems projects. I deliver unconventional solutions tailored to your needs. With a deep understanding of system architecture and programming languages, I create solutions that optimize performance, improve efficiency, and enhance the user experience.</p>
                   </div>
                 </div><!-- End slide item -->
 
@@ -172,7 +165,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Services</h2>
+          <h2>My Services</h2>
 
         </div>
 
@@ -415,7 +408,7 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-              <span>Nova</span>
+              <span>Washingtone</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links d-flex  mt-3">
@@ -467,7 +460,7 @@
     <div class="footer-legal">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Nova</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Washingtone</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
