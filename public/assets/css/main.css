@@ -1283,6 +1283,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-details{
+  padding-top: 50px;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
